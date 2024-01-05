@@ -1,11 +1,12 @@
 repo_name: kalwabed/slidev
 report_id: b13004f5e8369dd252f9443942e4223e
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T12:49:43+00:00'
+timestamp: '2024-01-05T08:54:27+00:00'
 requested_by: antfu
 provider: github
 branch: main
-detected_tools_count: 54
+detected_tools_count: 55
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/kalwabed/slidev
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/kalwabed/slidev
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/kalwabed/slidev
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -46,6 +50,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2021-04-16 12:52:54.000000000 Z
@@ -58,6 +63,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/package.json
   detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2022-06-30 07:39:34.000000000 Z
@@ -71,8 +77,8 @@ tools:
   category: Libraries
   sub_category: Javascript MVC Frameworks
   image_url: https://img.stackshare.io/service/3837/paeckCWC.png
-  detection_source_url: packages/client/package.json
-  detection_source: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/client/package.json
+  detection_source: packages/client/package.json
   last_updated_by: Tony Cabaye
   last_updated_on: 2023-04-03 08:30:33.000000000 Z
 - name: CodeMirror
@@ -85,8 +91,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Text Editor
   image_url: https://img.stackshare.io/service/2490/E_fCaAi6.png
-  detection_source_url: packages/client/package.json
-  detection_source: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/client/package.json
+  detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-07 11:38:32.000000000 Z
 - name: Cypress
@@ -100,7 +106,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/package.json
   detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-07 11:38:32.000000000 Z
@@ -113,6 +119,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/package.json
   detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2021-04-11 16:43:57.000000000 Z
@@ -124,6 +131,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/kalwabed/slidev
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -133,7 +141,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/test.yml"
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/.github/workflows/release.yml
+  detection_source: ".github/workflows/release.yml"
   last_updated_by: Anthony Fu
   last_updated_on: 2023-04-29 12:52:21.000000000 Z
 - name: NuGet
@@ -144,6 +153,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2021-04-16 12:52:54.000000000 Z
@@ -157,7 +167,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: packages/client/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/client/package.json
   detection_source: packages/client/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-08-31 16:45:36.000000000 Z
@@ -171,8 +181,8 @@ tools:
   category: Monitoring
   sub_category: node.js Application Monitoring
   image_url: https://img.stackshare.io/service/5577/preview.png
-  detection_source_url: cypress/fixtures/basic/package.json
-  detection_source: demo/starter/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/cypress/fixtures/basic/package.json
+  detection_source: cypress/fixtures/basic/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-08-02 10:07:38.000000000 Z
 - name: npm
@@ -183,6 +193,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2021-04-16 12:52:54.000000000 Z
@@ -195,6 +206,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/10903/JLVo_YPe_400x400.jpg
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/package.json
   detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-27 04:39:04.000000000 Z
@@ -207,7 +219,8 @@ tools:
   category: Application Utilities
   sub_category: Static Web Hosting
   image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
-  detection_source: packages/create-app/template/netlify.toml
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/netlify.toml
+  detection_source: netlify.toml
   last_updated_by: Anthony Fu
   last_updated_on: 2021-04-11 16:43:57.000000000 Z
 - name: Prism
@@ -220,7 +233,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
-  detection_source_url: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2022-08-25 14:11:44.000000000 Z
@@ -229,6 +242,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/package.json
   detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-27 04:39:04.000000000 Z
@@ -240,6 +254,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Bash Scripts
   image_url: https://img.stackshare.io/service/25684/default_09d743c2ce3cd5b32e4cae363d05941d9d137dd9.png
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/package.json
   detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2021-04-11 16:43:57.000000000 Z
@@ -253,7 +268,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16332/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/package.json
   detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-27 04:39:04.000000000 Z
@@ -267,7 +282,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/package.json
   detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-27 04:39:04.000000000 Z
@@ -281,7 +296,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16757/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/package.json
   detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-27 04:39:04.000000000 Z
@@ -295,7 +310,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/package.json
   detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-27 04:39:04.000000000 Z
@@ -309,7 +324,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/package.json
   detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-27 04:39:04.000000000 Z
@@ -323,7 +338,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16404/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/package.json
   detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-27 04:39:04.000000000 Z
@@ -337,7 +352,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17710/default_7ff152b9bcf219fad0d56c78a016d5bad6a2a526.png
-  detection_source_url: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-03-23 08:24:42.000000000 Z
@@ -351,7 +366,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16202/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
-  detection_source_url: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2021-05-02 16:57:02.000000000 Z
@@ -365,7 +380,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/package.json
   detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2021-04-11 16:43:57.000000000 Z
@@ -379,7 +394,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2022-03-21 19:01:38.000000000 Z
@@ -393,7 +408,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
-  detection_source_url: packages/create-app/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/create-app/package.json
   detection_source: packages/create-app/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2022-01-14 08:22:57.000000000 Z
@@ -407,7 +422,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17360/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
-  detection_source_url: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-08-02 10:07:38.000000000 Z
@@ -421,7 +436,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17033/default_50357c490b205882dcfb608fd3c74b446186c21e.png
-  detection_source_url: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-08-02 10:07:38.000000000 Z
@@ -435,7 +450,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16795/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source_url: packages/client/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/client/package.json
   detection_source: packages/client/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2021-04-28 12:43:16.000000000 Z
@@ -450,7 +465,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-27 04:39:04.000000000 Z
@@ -464,7 +479,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17405/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
-  detection_source_url: packages/client/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/client/package.json
   detection_source: packages/client/package.json
   last_updated_by: Tony Cabaye
   last_updated_on: 2023-04-03 08:30:33.000000000 Z
@@ -478,7 +493,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16705/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
-  detection_source_url: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Albert Brand
   last_updated_on: 2023-06-18 10:39:57.000000000 Z
@@ -492,8 +507,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16984/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
-  detection_source_url: packages/client/package.json
-  detection_source: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/client/package.json
+  detection_source: packages/client/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-02-13 15:35:28.000000000 Z
 - name: js-yaml
@@ -506,8 +521,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: packages/client/package.json
-  detection_source: packages/parser/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/client/package.json
+  detection_source: packages/client/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2021-05-07 03:01:54.000000000 Z
 - name: katex
@@ -520,10 +535,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18250/default_c6b51515d4a1dde78342d80e969e295cabf381ac.png
-  detection_source_url: package.json
-  detection_source: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/package.json
+  detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-14 02:13:26.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 14.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-09-27 04:39:04.000000000 Z
 - name: markdown-it
   description: Markdown-it - modern pluggable markdown parser
   package_url: https://www.npmjs.com/markdown-it
@@ -534,7 +563,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16277/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-27 04:39:04.000000000 Z
@@ -548,8 +577,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: packages/create-app/package.json
-  detection_source: packages/create-theme/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/create-app/package.json
+  detection_source: packages/create-app/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-02-13 15:35:28.000000000 Z
 - name: monaco-editor
@@ -562,8 +591,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18275/default_04867aeead13d19d0c97d0c649f8b38985a43aba.png
-  detection_source_url: packages/client/package.json
-  detection_source: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/client/package.json
+  detection_source: packages/client/package.json
   last_updated_by: vaakian X
   last_updated_on: 2023-04-09 15:24:28.000000000 Z
 - name: nanoid
@@ -576,8 +605,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17208/default_183829c5079b84333a720d8590a328efc043ba0e.png
-  detection_source_url: packages/client/package.json
-  detection_source: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/client/package.json
+  detection_source: packages/client/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-17 12:23:16.000000000 Z
 - name: open
@@ -590,7 +619,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16245/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
-  detection_source_url: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-03-23 08:37:17.000000000 Z
@@ -604,7 +633,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16575/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
-  detection_source_url: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-03-23 08:24:42.000000000 Z
@@ -618,7 +647,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
-  detection_source_url: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2022-08-25 14:11:44.000000000 Z
@@ -632,8 +661,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17250/default_8da30b412bf0dbb63f862bee0dfab0a32df2fb69.png
-  detection_source_url: packages/create-app/package.json
-  detection_source: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/create-app/package.json
+  detection_source: packages/create-app/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2021-10-19 21:04:07.000000000 Z
 - name: resolve
@@ -646,8 +675,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16128/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: packages/client/package.json
-  detection_source: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/client/package.json
+  detection_source: packages/client/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-17 12:23:16.000000000 Z
 - name: resolve-from
@@ -660,7 +689,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17861/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
-  detection_source_url: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-17 12:23:16.000000000 Z
@@ -674,7 +703,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/package.json
   detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-27 04:39:04.000000000 Z
@@ -688,8 +717,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: packages/client/package.json
-  detection_source: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/client/package.json
+  detection_source: packages/client/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2021-04-22 16:19:24.000000000 Z
 - name: vue-router
@@ -702,7 +731,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
-  detection_source_url: packages/client/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/client/package.json
   detection_source: packages/client/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-09-27 04:39:04.000000000 Z
@@ -716,7 +745,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: packages/slidev/package.json
+  detection_source_url: https://github.com/kalwabed/slidev/blob/main/packages/slidev/package.json
   detection_source: packages/slidev/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-05-17 10:25:48.000000000 Z
