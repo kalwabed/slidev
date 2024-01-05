@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 kalwabed/slidev is built on the following main stack:
+
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -19,11 +20,13 @@ kalwabed/slidev is built on the following main stack:
 - [zx](https://github.com/google/zx) – Bash Scripts
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 kalwabed/slidev is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1014/IoPy1dce_400x400.png' alt='.NET'/> [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -41,14 +44,15 @@ kalwabed/slidev is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/25684/default_09d743c2ce3cd5b32e4cae363d05941d9d137dd9.png' alt='zx'/> [zx](https://github.com/google/zx) – Bash Scripts
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [kalwabed/slidev](https://github.com/kalwabed/slidev)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|54<br/>Tools used|11/10/23 <br/>Report generated|
+|55<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -240,9 +244,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (34)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (35)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (34)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (35)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -266,6 +270,7 @@ Full tech stack [here](/techstack.md)
 |[js-base64](https://www.npmjs.com/js-base64)|v3.7.5|02/13/23|Anthony Fu |BSD-3-Clause|N/A|
 |[js-yaml](https://www.npmjs.com/js-yaml)|v4.1.0|05/07/21|Anthony Fu |MIT|N/A|
 |[katex](https://www.npmjs.com/katex)|v0.16.8|09/14/23|Anthony Fu |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v14.0.1|09/27/23|Anthony Fu |MIT|N/A|
 |[markdown-it](https://www.npmjs.com/markdown-it)|v13.0.2|09/27/23|Anthony Fu |MIT|N/A|
 |[minimist](https://www.npmjs.com/minimist)|v1.2.8|02/13/23|Anthony Fu |MIT|N/A|
 |[monaco-editor](https://www.npmjs.com/monaco-editor)|v0.37.1|04/09/23|vaakian X |MIT|N/A|
@@ -284,4 +289,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
